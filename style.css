@@ -1,6 +1,38 @@
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(images/fundo3.png);
+    background-attachment: scroll;
+}
+.separador {
+    display: flex;
+    gap: 400px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: #FFF67A;
+    
+
+    a{
+        color: #603A74;
+        display: inline-block;
+        padding: 15px 30px;
+        background-color: #FFF67A;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    a:hover {
+        background-color: #603A74;
+        color: #FFF67A;
+    }
+}
