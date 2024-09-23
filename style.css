@@ -3,14 +3,11 @@
     src: url(happy_paradise/Happy\ Paradise.otf);
 }
 
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 body {
     margin: 0;
@@ -19,6 +16,7 @@ body {
     background-image: url(images/fundo3.png);
     background-attachment: scroll;
 }
+
 .menu {
     display: flex;
     justify-content: space-evenly;
@@ -28,9 +26,7 @@ body {
     letter-spacing: 2px;
     height: 80px;
     align-items: center;
-
     
-
     a{
         display: flex;
         align-items: center;
@@ -48,65 +44,44 @@ body {
         background-color: #603A74;
         color: #FFF67A;
         font-size: 34px;
-
     }
 }
 
 img{
-
-
-display: flex;
-height: 450px;
-
+    display: flex;
+    height: 450px;    
 }
-
 
 .titles{
     margin-top: 100px;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    column-gap: 70px;
- 
-
-    
-
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    div:nth-child(1){
+        background-color: #8a1cc9;
+        border-radius: 1rem;
+        width: auto;
+        margin-left: 65px;
+    }
+    div:nth-child(2) {
+        border-radius: 10px;
+    }
 }
 
+.grid-2 {
+    justify-items: center;
+}
 
 .titles h1{
-margin-left: 65px;
-margin-bottom: 40px;
-font-family: "menu";
-color: #FFFFFF;
-
-
-}
-.sub{
-
-    background-color: #603A74;
-    width: 275px;
+    margin-top: 1rem;
     margin-left: 65px;
+    margin-bottom: 40px;
+    font-family: "menu";
+    color: #FFFFFF;
 }
 
 .titles p{
     margin-left: 65px;
     font-size: 20px;
-    
 }
-
-.titles div:nth-child(2){
-    grid-column: 3/4;
-
-
-}
-
-.titles div:nth-child(1){
-    grid-column: 1/3;
-
-
-}
-
-
-
-
 
