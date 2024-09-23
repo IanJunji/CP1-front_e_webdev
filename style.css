@@ -15,8 +15,12 @@ body {
     box-sizing: border-box;
     background-image: url(images/fundo3.png);
     background-attachment: scroll;
+    max-width: 1920px;
+    width: 1903px;
 }
-
+.banner img{
+    display: flex;
+}
 .menu {
     display: flex;
     justify-content: space-evenly;
@@ -26,6 +30,7 @@ body {
     letter-spacing: 2px;
     height: 80px;
     align-items: center;
+
     
     a{
         display: flex;
@@ -47,41 +52,35 @@ body {
     }
 }
 
-img{
-    display: flex;
-    height: 450px;    
-}
-
 .titles{
     margin-top: 100px;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
+    
     justify-items: center;
-    div:nth-child(1){
-        background-color: #8a1cc9;
-        border-radius: 1rem;
-        width: auto;
+    h1{
+        margin-top: 1rem;
         margin-left: 65px;
+        margin-bottom: 40px;
+        font-family: "menu";
+        color: #FFFFFF;
+        font-size: 35px;
     }
-    img{
-        border-radius: 1rem;
+    p{
+        margin-left: 65px;
+        font-size: 25px;
     }
 }
-
-.grid-2 {
-    justify-items: center;
-}
-
-.titles h1{
-    margin-top: 1rem;
+.texto{
+    background-color: #a82af16b;
+    border-radius: 1rem;
+    width: auto;
     margin-left: 65px;
-    margin-bottom: 40px;
-    font-family: "menu";
-    color: #FFFFFF;
+    grid-column: 2;
 }
-
-.titles p{
-    margin-left: 65px;
-    font-size: 20px;
+.imagem{
+    border-radius: 1rem;
+    display: flex;
+    height: 450px; 
+    grid-column: 1;
 }
-
