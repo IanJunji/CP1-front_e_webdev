@@ -1,3 +1,10 @@
+@font-face {
+    font-family:"menu" ;
+    src: url(happy_paradise/Happy\ Paradise.otf);
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -12,17 +19,21 @@ body {
     background-image: url(images/fundo3.png);
     background-attachment: scroll;
 }
-.separador {
+.menu {
     display: flex;
-    gap: 400px;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #FFF67A;
+    flex-direction: row;
+    font-family: "menu";
+    letter-spacing: 2px;
+    height: 80px;
+    align-items: center;
+
     
 
     a{
+        display: flex;
+        align-items: center;
         color: #603A74;
         display: inline-block;
         padding: 15px 30px;
@@ -30,9 +41,72 @@ body {
         text-decoration: none;
         border-radius: 5px;
         transition: background-color 0.3s;
+        font-size: 32px;
+        transition: 0.2s;
     }
     a:hover {
         background-color: #603A74;
         color: #FFF67A;
+        font-size: 34px;
+
     }
 }
+
+img{
+
+
+display: flex;
+height: 450px;
+
+}
+
+
+.titles{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 70px;
+ 
+
+    
+
+}
+
+
+.titles h1{
+margin-left: 65px;
+margin-bottom: 40px;
+font-family: "menu";
+color: #FFFFFF;
+
+
+}
+.sub{
+
+    background-color: #603A74;
+    width: 275px;
+    margin-left: 65px;
+}
+
+.titles p{
+    margin-left: 65px;
+    font-size: 20px;
+    
+}
+
+.titles div:nth-child(2){
+    grid-column: 3/4;
+
+
+}
+
+.titles div:nth-child(1){
+    grid-column: 1/3;
+
+
+}
+
+
+
+
+
