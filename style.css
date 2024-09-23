@@ -63,8 +63,8 @@ img{
         width: auto;
         margin-left: 65px;
     }
-    div:nth-child(2) {
-        border-radius: 10px;
+    img{
+        border-radius: 1rem;
     }
 }
 
