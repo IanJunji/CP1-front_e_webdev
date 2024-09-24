@@ -15,11 +15,10 @@ body {
     box-sizing: border-box;
     background-image: url(images/fundo3.png);
     background-attachment: scroll;
-    max-width: 1920px;
-    width: 1903px;
 }
 .banner img{
     display: flex;
+    width: 100%;
 }
 .menu {
     display: flex;
@@ -28,9 +27,9 @@ body {
     flex-direction: row;
     font-family: "menu";
     letter-spacing: 2px;
-    height: 80px;
+    height: 10%;
     align-items: center;
-
+    
     
     a{
         display: flex;
@@ -53,14 +52,14 @@ body {
 }
 /* Ajustes do grid. Onde cada coisa vai ficar. */
 .titles{
-    margin-top: 100px;
+    margin-top: 3%;
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-rows: auto;
 }
 
 p{
-    margin-left: 65px;
+    margin-left: 4%;
     font-size: 25px;
 }
 
