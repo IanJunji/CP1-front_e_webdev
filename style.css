@@ -31,7 +31,7 @@ body {
     flex-direction: row;
     font-family: "menu";
     letter-spacing: 2px;
-    height: 10%;
+    height: 5rem;
     align-items: center;
     margin-bottom: 4rem;
     
@@ -41,7 +41,7 @@ body {
         align-items: center;
         color: #603A74;
         display: inline-block;
-        padding: 1rem 2rem;
+        padding: 0.5rem 1rem;
         background-color: #FFF67A;
         text-decoration: none;
         border-radius: 0.3rem;
@@ -52,7 +52,7 @@ body {
     a:hover {
         background-color: #603A74;
         color: #FFF67A;
-        font-size: 2.1rem;
+        font-size: 2.4rem;
     }
 }
 /* Ajustes do grid. Onde cada coisa vai ficar. */

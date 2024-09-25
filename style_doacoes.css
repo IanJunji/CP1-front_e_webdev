@@ -53,7 +53,7 @@ body {
     flex-direction: row;
     font-family: "menu";
     letter-spacing: 0.125rem;
-    height: 10%;
+    height: 5rem;
     align-items: center;
     margin-bottom: 4rem;
     a{
@@ -61,7 +61,7 @@ body {
         align-items: center;
         color: #603A74;
         display: inline-block;
-        padding: 1rem 2rem;
+        padding: 0.5rem 1rem;
         background-color: #FFF67A;
         text-decoration: none;
         border-radius: 0.3rem;
@@ -72,7 +72,7 @@ body {
     a:hover {
         background-color: #603A74;
         color: #FFF67A;
-        font-size: 2.1rem;
+        font-size: 2.4rem;
     }
 }
 
@@ -189,8 +189,8 @@ body {
     justify-items: center;
     align-items: center;
     background-color: #603A74;
-    height: 20rem;
-    padding-top: 3rem;
+    height: 14rem;
+    padding-top: 2rem;
     a{
         text-decoration: none;
         color: white;
