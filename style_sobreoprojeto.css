@@ -1,0 +1,92 @@
+/* --- grid da primeira linha --- */
+.main{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+    grid-gap: 7vh;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    
+}
+
+/* --- bloco texto um --- */
+.projeto{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #a82af16b;
+    margin-left: 10vh;
+    margin-bottom: 4vh;
+    margin-right: 10vh;
+    border-radius: 1rem;
+    h1{
+        font-family: "menu4";
+        margin: 4vh;
+        font-size: 2rem;
+        color: #FFF67A;
+        -webkit-text-stroke: 1px black;
+    }
+    p{
+        font-family: "menu5";
+        font-size: 1.5rem;
+        margin-left: 4vh;
+        margin-bottom: 4vh;
+        margin-right: 4vh;
+    }
+}
+
+
+/* --- bloco da imagem em cima --- */
+.imagem{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    img{
+        border-style: groove;
+        border-color: #FFF67A;
+        border-radius: 1rem;
+        height: 28rem;
+        max-width: 100vh
+    }
+}
+
+
+/* ---- grid da segunda linha ----- */
+.main2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 5rem;
+    margin-top: 5vh;
+    h1{
+        font-family: "menu4";
+        color: #FFF67A;
+        -webkit-text-stroke: 1px black;
+        margin: 4vh;
+        font-size: 2rem;
+    }
+    p{
+        font-family: "menu5";
+        font-size: 1.5rem;
+        margin-left: 4vh;
+        margin-bottom: 4vh;
+        margin-right: 4vh;
+    }
+}
+
+/* --- bloco doacoes --- */
+.doacoes{
+    margin-left: 10vh;
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #a82af16b;
+    border-radius: 1rem;
+}
+
+/* --- bloco voluntários --- */
+.voluntario{
+    margin-right: 10vh;
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #a82af16b;
+    border-radius: 1rem;
+}
