@@ -1,0 +1,134 @@
+/* --- fontes --- */
+
+@font-face {
+    font-family:"menu" ;
+    src: url(fonts/happy_paradise/Happy\ Paradise.otf);
+}
+@font-face {
+    font-family: "menu4";
+    src: url(fonts/ready_for_fall/Ready\ For\ Fall.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(images/fundo3.png);
+    background-attachment: scroll;
+}
+
+/*---- HEADER ----*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(images/fundo3.png);
+    background-attachment: scroll;
+    overflow-x: hidden;
+}
+/*--- banner --- */
+.banner img{
+    display: flex;
+    height: 45vh;
+    width: 100%;
+}
+
+/*--- menu ---*/
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FFF67A;
+    flex-direction: row;
+    font-family: "menu";
+    letter-spacing: 2px;
+    height: 5rem;
+    align-items: center;
+    margin-bottom: 4rem;
+    
+    
+    a{
+        display: flex;
+        align-items: center;
+        color: #603A74;
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        background-color: #FFF67A;
+        text-decoration: none;
+        border-radius: 0.3rem;
+        transition: background-color 0.3s;
+        font-size: 2rem;
+        transition: 0.2s;
+    }
+    a:hover {
+        background-color: #603A74;
+        color: #FFF67A;
+        font-size: 2.4rem;
+    }
+}
+
+/* --- FOOTER --- */
+
+.rodape{
+    display: grid;
+    grid-template-areas: 
+        "adote colabore contato"
+        "redes redes redes"
+        "ptn ptn ptn";
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-color: #603A74;
+    height: 14rem;
+    padding-top: 2rem;
+    margin-top: 10vh;
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: large;
+    }
+    p{
+        margin-top: 0.4rem;
+        color: white;
+        font-size: small;
+    }
+
+}
+.link1, .link2, .link3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes{
+    grid-area: redes;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    img{
+        color: white;
+    }
+}
+
+.ong{
+    grid-area: ptn;
+    display: flex;
+    justify-content: center;
+    
+    h3{
+        align-content: center;
+        color: white;
+    }
+}

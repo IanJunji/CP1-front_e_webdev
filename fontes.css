@@ -1,0 +1,20 @@
+@font-face {
+    font-family:"menu" ;
+    src: url(fonts/happy_paradise/Happy\ Paradise.otf);
+}
+@font-face {
+    font-family: "menu2";
+    src: url(fonts/hug_me_tight/Hug\ Me\ Tight\ -\ OTF.otf);
+}
+@font-face {
+    font-family: "menu3";
+    src: url(fonts/lemon_milk/LEMONMILK-Bold.otf);
+}
+@font-face {
+    font-family: "menu4";
+    src: url(fonts/ready_for_fall/Ready\ For\ Fall.ttf);
+}
+@font-face {
+    font-family: "menu5";
+    src: url(fonts/coolvetica/coolvetica\ rg.otf);
+}
