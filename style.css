@@ -1,8 +1,11 @@
 @font-face {
     font-family:"menu" ;
-    src: url(happy_paradise/Happy\ Paradise.otf);
+    src: url(fonts/happy_paradise/Happy\ Paradise.otf);
 }
-
+@font-face {
+    font-family: "menu4";
+    src: url(fonts/ready_for_fall/Ready\ For\ Fall.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -15,12 +18,18 @@ body {
     box-sizing: border-box;
     background-image: url(images/fundo3.png);
     background-attachment: scroll;
-    max-width: 1920px;
-    width: 1903px;
 }
+
+/*-------------------------- header ---------------------------------------------*/
+
+/*---------------------------- banner -------------------------------- */
 .banner img{
     display: flex;
+    height: 45vh;
+    width: 100%;
 }
+
+/*---------------------------- menu --------------------------------*/
 .menu {
     display: flex;
     justify-content: space-evenly;
@@ -28,63 +37,67 @@ body {
     flex-direction: row;
     font-family: "menu";
     letter-spacing: 2px;
-    height: 80px;
+    height: 5rem;
     align-items: center;
-
+    margin-bottom: 4rem;
+    
     
     a{
         display: flex;
         align-items: center;
         color: #603A74;
         display: inline-block;
-        padding: 15px 30px;
+        padding: 0.5rem 1rem;
         background-color: #FFF67A;
         text-decoration: none;
-        border-radius: 5px;
+        border-radius: 0.3rem;
         transition: background-color 0.3s;
-        font-size: 32px;
+        font-size: 2rem;
         transition: 0.2s;
     }
     a:hover {
         background-color: #603A74;
         color: #FFF67A;
-        font-size: 34px;
+        font-size: 2.4rem;
     }
 }
-/* Ajustes do grid. Onde cada coisa vai ficar. */
+
+
+/* --- grid --- */
 .titles{
-    margin-top: 100px;
+    margin-top: 3%;
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-rows: auto;
+    
 }
 
-p{
-    margin-left: 65px;
-    font-size: 25px;
-}
 
-h1{
-    margin-top: 1rem;
-    margin-left: 65px;
-    margin-bottom: 40px;
-    font-family: "menu";
-    color: #FFFFFF;
-    font-size: 35px;
-}
+
 
 .texto{
     background-color: #a82af16b;
     border-radius: 1rem;
     width: auto;
-    margin-left: 156px;
+    margin-left: 10rem;
     grid-column: 1;
     grid-row: 1;
+    h1{
+        margin: 4vh;
+        font-family: "menu4";
+        color: #FFF67A;
+        font-size: 2rem;
+        -webkit-text-stroke: black 1px;
+    }
+    p{
+        margin-left: 4%;
+        font-size: 1.5rem;
+    }
 }
 
 .imagem{
     display: flex;
-    height: 450px; 
+    height: 28rem; 
     grid-column: 2;
     grid-row: 1;
     justify-content: center;
@@ -93,28 +106,21 @@ h1{
         border-radius: 1rem;
         height: 100%;
         width: auto;
+        border-style: groove;
+        border-color: #FFF67A;
     }
 }
 .titles2{
-    margin-top: 100px;
+    margin-top: 6.25rem;
     display: grid;
+    margin-bottom: 0vh;
     grid-template-columns: 40% 60%;
     grid-template-rows: auto;
 }
 
-p{
-    margin-left: 65px;
-    font-size: 25px;
-}
 
-h1{
-    margin-top: 1rem;
-    margin-left: 65px;
-    margin-bottom: 40px;
-    font-family: "menu";
-    color: #FFFFFF;
-    font-size: 35px;
-}
+
+
 
 .texto2{
     background-color: #a82af16b;
@@ -123,11 +129,22 @@ h1{
     margin-right: 156px;
     grid-column: 2;
     grid-row: 1;
+    h1{
+        margin: 4vh;
+        font-family: "menu4";
+        color: #FFF67A;
+        font-size: 2rem;
+        -webkit-text-stroke: 1px black;
+    }
+    p{
+        margin-left: 4rem;
+        font-size: 1.5rem;
+    }
 }
 
 .imagem2{
     display: flex;
-    height: 450px; 
+    height: 28rem; 
     grid-column: 1;
     grid-row: 1;
     justify-content: center;
@@ -136,5 +153,7 @@ h1{
         border-radius: 1rem;
         height: 100%;
         width: auto;
+        border-style: groove;
+        border-color: #FFF67A;  
     }
 }
