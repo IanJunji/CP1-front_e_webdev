@@ -48,13 +48,95 @@
 
 .fotos{
     display: grid;
-    grid-template-areas: 
-        "foto1 foto2 foto3 foto4"
-        "foto5 foto6 foto7 foto8";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 3rem;
+    border-radius: 3rem;
     .foto1{
-        grid-area: foto1;
+        display: flex;
+        grid-column: 1;
+        grid-row: 1;
+        flex-direction: column;
+        border-radius: 5rem;
+        align-items: center;
+        justify-self: center;
+        width: 15rem;
+        justify-items: center;
+        border-style: groove;
+        border-color: #FFF67A;
+        background-color: #a82af16b;
+        img{
+            display: flex;
+            width: 30rem;
+        }
+        h2{
+            display: flex;
+            text-align: center;
+            margin-bottom: 1.3rem;
+        }
     }
     .foto2{
-        grid-area: foto2;
+        display: flex;
+        grid-column: 2;
+        grid-row: 1;
+        flex-direction: column;
+        img{
+            width: 30rem;
+        }
+    }
+    .foto3{
+        display: flex;
+        grid-column: 3;
+        grid-row: 1;
+        flex-direction: column;
+        img{
+            width: 30rem;
+        }
+    }
+    .foto4{
+        display: flex;
+        grid-column: 4;
+        grid-row: 1;
+        flex-direction: column;
+        img{
+            width: 30rem;
+        }
+    }
+    .foto5{
+        display: flex;
+        grid-column: 1;
+        grid-row: 2;
+        flex-direction: column;
+        img{
+            width: 30rem;
+        }
+    }
+    .foto6{
+        display: flex;
+        grid-column: 2;
+        grid-row: 2;
+        flex-direction: column;
+        img{
+            width: 30rem;
+        }
+    }
+    .foto7{
+        display: flex;
+        grid-column: 3;
+        grid-row: 2;
+        flex-direction: column;
+        img{
+            width: 30rem;
+        }
+    }
+    .foto8{
+        display: flex;
+        grid-column: 4;
+        grid-row: 2;
+        flex-direction: column;
+        img{
+            width: 30rem;
+        }
     }
 }
+
