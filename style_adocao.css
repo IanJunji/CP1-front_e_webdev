@@ -9,16 +9,52 @@
     margin-left: 15vh;
     margin-right: 15vh;
     border-radius: 3rem;
-    padding: 2rem;
+    padding: 3rem;
     text-align: justify;
-    border-style: groove;
-    border-color: #FFF67A;
     h1{
         font-size: 2.3rem;
         margin-bottom: 1rem;
+        font-family: "menu4";
+        color: #FFF67A;
+        -webkit-text-stroke: 1px black;
     }
     p{
         font-size: 2rem;
         padding: 0.2rem;
+        font-family: "menu5";
+
+    }
+}
+
+.gridtitle{
+    display: flex;
+    background-color: #a82af16b;
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    margin-left: 80vh;
+    margin-right: 80vh;
+    border-style: groove;
+    border-color: #FFF67A;
+    h1{
+        font-family: "menu4";
+        -webkit-text-stroke: 1px black;
+        color: #FFF67A;
+        padding: 1rem;
+
+    }
+}
+
+.fotos{
+    display: grid;
+    grid-template-areas: 
+        "foto1 foto2 foto3 foto4"
+        "foto5 foto6 foto7 foto8";
+    .foto1{
+        grid-area: foto1;
+    }
+    .foto2{
+        grid-area: foto2;
     }
 }
