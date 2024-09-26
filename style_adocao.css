@@ -1,0 +1,24 @@
+/* --PROCESSO DE ADOCAO-- */
+
+.Guia{
+    display: flex;
+    flex-direction: column;
+    background-color: #a82af16b;
+    background-size: auto;
+    text-align: justify;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    border-radius: 3rem;
+    padding: 2rem;
+    text-align: justify;
+    border-style: groove;
+    border-color: #FFF67A;
+    h1{
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+    }
+    p{
+        font-size: 2rem;
+        padding: 0.2rem;
+    }
+}
