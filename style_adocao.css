@@ -33,9 +33,9 @@
     justify-content: center;
     margin-bottom: 3rem;
     h1{
-        background: linear-gradient(45deg , #a82af16b, #FFF67A);
+        background-color: #a82af16b;
         border-style: groove;
-        border-radius: 3rem;
+        border-radius: 1rem;
         border-color: #FFF67A;
         font-family: "menu4";
         -webkit-text-stroke: 1px black;
