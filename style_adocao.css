@@ -28,20 +28,21 @@
 
 .gridtitle{
     display: flex;
-    background-color: #a82af16b;
     margin-top: 10vh;
     align-items: center;
     justify-content: center;
-    border-radius: 3rem;
-    margin-left: 80vh;
-    margin-right: 80vh;
-    border-style: groove;
-    border-color: #FFF67A;
+    margin-bottom: 3rem;
     h1{
+        background: linear-gradient(45deg , #a82af16b, #FFF67A);
+        border-style: groove;
+        border-radius: 3rem;
+        border-color: #FFF67A;
         font-family: "menu4";
         -webkit-text-stroke: 1px black;
         color: #FFF67A;
-        padding: 1rem;
+        padding: 1.3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
 
     }
 }
@@ -50,8 +51,10 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
-    grid-gap: 3rem;
+    grid-gap: 5rem;
     border-radius: 3rem;
+    margin-left: 13rem;
+    margin-right: 13rem;
     .foto1{
         display: flex;
         grid-column: 1;
@@ -60,11 +63,9 @@
         border-radius: 5rem;
         align-items: center;
         justify-self: center;
-        width: 15rem;
+        width: 20rem;
         justify-items: center;
-        border-style: groove;
-        border-color: #FFF67A;
-        background-color: #a82af16b;
+        background: linear-gradient(45deg , #a82af16b, #FFF67A);
         img{
             display: flex;
             width: 30rem;
@@ -80,8 +81,20 @@
         grid-column: 2;
         grid-row: 1;
         flex-direction: column;
+        border-radius: 5rem;
+        align-items: center;
+        justify-self: center;
+        width: 20rem;
+        justify-items: center;
+        background: linear-gradient(45deg , #a82af16b, #FFF67A);
         img{
+            display: flex;
             width: 30rem;
+        }
+        h2{
+            display: flex;
+            text-align: center;
+            margin-bottom: 1.3rem;
         }
     }
     .foto3{
@@ -89,8 +102,20 @@
         grid-column: 3;
         grid-row: 1;
         flex-direction: column;
+        border-radius: 5rem;
+        align-items: center;
+        justify-self: center;
+        width: 20rem;
+        justify-items: center;
+        background: linear-gradient(45deg , #a82af16b, #FFF67A);
         img{
+            display: flex;
             width: 30rem;
+        }
+        h2{
+            display: flex;
+            text-align: center;
+            margin-bottom: 1.3rem;
         }
     }
     .foto4{
@@ -98,8 +123,20 @@
         grid-column: 4;
         grid-row: 1;
         flex-direction: column;
+        border-radius: 5rem;
+        align-items: center;
+        justify-self: center;
+        width: 20rem;
+        justify-items: center;
+        background: linear-gradient(45deg , #a82af16b, #FFF67A);
         img{
+            display: flex;
             width: 30rem;
+        }
+        h2{
+            display: flex;
+            text-align: center;
+            margin-bottom: 1.3rem;
         }
     }
     .foto5{
@@ -107,8 +144,20 @@
         grid-column: 1;
         grid-row: 2;
         flex-direction: column;
+        border-radius: 5rem;
+        align-items: center;
+        justify-self: center;
+        width: 20rem;
+        justify-items: center;
+        background: linear-gradient(45deg , #a82af16b, #FFF67A);
         img{
+            display: flex;
             width: 30rem;
+        }
+        h2{
+            display: flex;
+            text-align: center;
+            margin-bottom: 1.3rem;
         }
     }
     .foto6{
@@ -116,8 +165,20 @@
         grid-column: 2;
         grid-row: 2;
         flex-direction: column;
+        border-radius: 5rem;
+        align-items: center;
+        justify-self: center;
+        width: 20rem;
+        justify-items: center;
+        background: linear-gradient(45deg , #a82af16b, #FFF67A);
         img{
+            display: flex;
             width: 30rem;
+        }
+        h2{
+            display: flex;
+            text-align: center;
+            margin-bottom: 1.3rem;
         }
     }
     .foto7{
@@ -125,8 +186,20 @@
         grid-column: 3;
         grid-row: 2;
         flex-direction: column;
+        border-radius: 5rem;
+        align-items: center;
+        justify-self: center;
+        width: 20rem;
+        justify-items: center;
+        background: linear-gradient(45deg , #a82af16b, #FFF67A);
         img{
+            display: flex;
             width: 30rem;
+        }
+        h2{
+            display: flex;
+            text-align: center;
+            margin-bottom: 1.3rem;
         }
     }
     .foto8{
@@ -134,9 +207,85 @@
         grid-column: 4;
         grid-row: 2;
         flex-direction: column;
+        border-radius: 5rem;
+        align-items: center;
+        justify-self: center;
+        width: 20rem;
+        justify-items: center;
+        background: linear-gradient(45deg , #a82af16b, #FFF67A);
         img{
+            display: flex;
             width: 30rem;
+        }
+        h2{
+            display: flex;
+            text-align: center;
+            margin-bottom: 1.3rem;
         }
     }
 }
 
+.familia1, .familia2, .familia3{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg , #a82af16b, #FFF67A);
+    padding: 5rem;
+    padding-top: 1rem;
+    margin: 4rem;
+    margin-top: 0rem;
+    border-radius: 4rem;
+    img{
+        margin-top: 3rem;
+        display: flex;
+        width: auto;
+        height: 30rem;
+        align-self: center;
+    }
+    h2{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        margin: 3rem;
+    }
+}
+
+.historias{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 20% 80%;
+    grid-column-gap: 3rem;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    h1{
+        font-family: "menu4";
+        background-color: #a82af16b;
+        border-radius: 1rem;
+        border-style: groove;
+        border-color: #FFF67A;
+        -webkit-text-stroke: 1px black;
+        color: #FFF67A;
+        padding: 1.3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        align-self: center;
+        justify-self: center;
+        display: flex;
+        grid-column: 2;
+        grid-row: 1;
+        
+    }
+    .familia1{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .familia2{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .familia3{
+        grid-column: 3;
+        grid-row: 2;
+    }
+}
