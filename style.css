@@ -11,7 +11,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     margin: 0;
     padding: 0;
@@ -19,16 +18,12 @@ body {
     background-image: url(images/fundo3.png);
     background-attachment: scroll;
 }
-
-/*-------------------------- header ---------------------------------------------*/
-
 /*---------------------------- banner -------------------------------- */
 .banner img{
     display: flex;
     height: 45vh;
     width: 100%;
 }
-
 /*---------------------------- menu --------------------------------*/
 .menu {
     display: flex;
@@ -61,8 +56,6 @@ body {
         font-size: 2.4rem;
     }
 }
-
-
 /* --- grid --- */
 .titles{
     margin-top: 3%;
@@ -71,10 +64,6 @@ body {
     grid-template-rows: auto;
     
 }
-
-
-
-
 .texto{
     background-color: #a82af16b;
     border-radius: 1rem;
@@ -86,25 +75,25 @@ body {
         margin: 4vh;
         font-family: "menu4";
         color: #FFF67A;
-        font-size: 2rem;
+        font-size: 2.3rem;
         -webkit-text-stroke: black 1px;
     }
     p{
         margin-left: 4%;
-        font-size: 1.5rem;
+        font-size: 2rem;
+        padding-top: 2vh;
     }
 }
-
 .imagem{
     display: flex;
-    height: 28rem; 
+    height: 100%; 
     grid-column: 2;
     grid-row: 1;
     justify-content: center;
     align-items: center;
     img{
         border-radius: 1rem;
-        height: 100%;
+        height: 80%;
         width: auto;
         border-style: groove;
         border-color: #FFF67A;
@@ -117,41 +106,38 @@ body {
     grid-template-columns: 40% 60%;
     grid-template-rows: auto;
 }
-
-
-
-
-
 .texto2{
     background-color: #a82af16b;
     border-radius: 1rem;
     width: auto;
-    margin-right: 156px;
+    margin-right: 10rem;
     grid-column: 2;
     grid-row: 1;
+    text-align: justify;
+    padding-right: 2.5rem;
     h1{
         margin: 4vh;
         font-family: "menu4";
         color: #FFF67A;
-        font-size: 2rem;
+        font-size: 2.3rem;
         -webkit-text-stroke: 1px black;
     }
     p{
-        margin-left: 4rem;
-        font-size: 1.5rem;
+        margin-left: 4%;
+        font-size: 2rem;
+        padding-bottom: 3vh;
     }
 }
-
 .imagem2{
     display: flex;
-    height: 28rem; 
+    height: 100%; 
     grid-column: 1;
     grid-row: 1;
     justify-content: center;
     align-items: center;
     img{
         border-radius: 1rem;
-        height: 100%;
+        height: 80%;
         width: auto;
         border-style: groove;
         border-color: #FFF67A;  
