@@ -43,3 +43,78 @@
   
 }
 
+.inputs{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-family: "menu4";
+    padding: 7vh;
+    padding-top: 2vh;
+    column-gap: 3rem;
+    
+    
+
+    
+}
+    .nome{
+    grid-column: 1;
+    grid-row: 1;
+}
+.sobrenome {
+    grid-column: 2;
+    grid-row: 1;
+}
+.email{
+    grid-column: 1;
+    grid-row: 2;
+}
+.telefone{
+    grid-column: 2;
+    grid-row: 2;
+}
+.idade{
+    grid-column: 1;
+    grid-row: 3;
+}
+.endereco{
+    grid-column: 2;
+    grid-row: 3;
+}
+.outros_animais{
+    grid-column: 1;
+    grid-row: 4;
+}
+.quantidade{
+    grid-column: 2;
+    grid-row: 4;
+}
+.explique{
+    grid-column: 1/2;
+    grid-row: 5;
+    overflow: none;
+}
+
+.nome, .sobrenome, .email, .telefone, .idade, .endereco, .outros_animais, .quantidade, .explique{
+
+}
+
+
+label {
+    display: block;
+}
+
+input, textarea {
+    width: 75%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    height: 35px;
+   
+  
+    
+}
