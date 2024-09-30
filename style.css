@@ -71,6 +71,8 @@ body {
     margin-left: 10rem;
     grid-column: 1;
     grid-row: 1;
+    text-align: justify;
+    padding-right: 2.5rem;
     h1{
         margin: 4vh;
         font-family: "menu4";
@@ -143,3 +145,4 @@ body {
         border-color: #FFF67A;  
     }
 }
+
